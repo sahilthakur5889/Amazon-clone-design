@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width:100px;
+    background-color: red;
+    position: absolute;
+    top:100px;
+    left:100px;
+    border:2px solid black;
+    animation-name: coloranimate;
+    animation-duration: 2s;  /*kitne time baad blink kere*/
+    animation-timing-function: ease-in;
+    animation-delay: 4s;   
+    animation-iteration-count: infinite; /*kitni baar repeat kere*/
+    animation-direction: normal;
+
+
+}
+@keyframes coloranimate {
+    from
+    {left: 0px;
+    background-color: red;
+    }
+    
+    to{
+    left:200px; background-color: yellow;
+     }
+}
+div:hover{ 
+
+
+
+}
